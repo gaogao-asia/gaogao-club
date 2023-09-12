@@ -1,0 +1,24 @@
+.navbar-logo {
+  height: 80px;
+}
+
+.hero-section {
+  position: relative;
+  z-index: 0;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .2) url(/images/hero_bg.jpg) no-repeat 100% bottom;
+  overflow: hidden;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-top: 120px;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  filter: brightness(.8);
+  z-index: -1;
+}
