@@ -24,12 +24,12 @@ https://templatemo.com/tm-590-topic-listing
   --body-font-family: "Open Sans", sans-serif;
   --title-font-family: "Montserrat", sans-serif;
 
-  --h1-font-size: 58px;
+  --h1-font-size: 64px;
   --h2-font-size: 46px;
   --h3-font-size: 32px;
   --h4-font-size: 28px;
-  --h5-font-size: 24px;
-  --h6-font-size: 22px;
+  --h5-font-size: 26px;
+  --h6-font-size: 24px;
   --p-font-size: 20px;
   --menu-font-size: 14px;
   --btn-font-size: 18px;
@@ -1153,7 +1153,8 @@ blockquote {
 
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 36px;
+    font-size: 30px;
+    line-height: 42px;
   }
 
   h2 {
@@ -1170,5 +1171,9 @@ blockquote {
 
   h5 {
     font-size: 20px;
+  }
+
+  h6 {
+    line-height: 32px;
   }
 }
